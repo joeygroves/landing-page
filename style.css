@@ -122,7 +122,16 @@ h1.information {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    text-align: left;
     overflow-wrap: break-word;
     max-width: 800px;
     padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.quote-sayer {
+    font-weight: bold;
+    text-align: right;
+    padding-left: 500px;
+    padding-bottom: 80px;
 }
