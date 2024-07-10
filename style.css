@@ -21,7 +21,7 @@ body {
   }
 
 .header {
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 16px;
 }
@@ -56,12 +56,20 @@ ul {
     display: flex;
     text-align: start;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
 .hero-main-text {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
+    overflow-wrap: break-word;
+    width: 400px;
 }
 
+.hero-subtext {
+    overflow-wrap: break-word;
+    width: 400px;
+    font-weight: 300;
+}
