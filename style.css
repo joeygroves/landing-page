@@ -135,3 +135,7 @@ h1.information {
     padding-left: 500px;
     padding-bottom: 80px;
 }
+
+.modal {
+    background: #3882F6;
+}
