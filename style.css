@@ -111,4 +111,18 @@ h1.information {
 
 .testimonial {
     background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    overflow-wrap: break-word;
+    max-width: 800px;
+    padding-top: 80px;
 }
