@@ -149,8 +149,9 @@ h1.information {
     border-radius: 8px;
     display: flex;
     gap: 16px;
-    padding: 16px;
+    padding: 48px;
     margin:80px;
+    justify-content: space-evenly;
 }
 
 .header-call,
@@ -160,6 +161,7 @@ h1.information {
 
 .header-call {
     font-weight: bolder;
+    font-size: large;
 }
 
 .call-text {
