@@ -90,11 +90,14 @@ h1.information {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    padding-top: 30px;
 }
 .information {
     display: flex;
     justify-content: center;
     gap: 52px;
+    height: 100vh;
+    margin-bottom: 100px;
 }
 
 .information img {
@@ -104,4 +107,8 @@ h1.information {
 
 .plants {
     max-width: 200px;
+}
+
+.testimonial {
+    background: #E5E7EB;
 }
