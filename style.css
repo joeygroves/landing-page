@@ -4,6 +4,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .header,
@@ -52,5 +53,14 @@ ul {
     background: #1F2937;
     color: #F9FAF8;
     display: flex;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
 }
 
