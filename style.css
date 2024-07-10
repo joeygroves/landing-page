@@ -73,3 +73,15 @@ ul {
     width: 400px;
     font-weight: 300;
 }
+
+button {
+    cursor: pointer;
+    padding: 6px 24px;
+    border-radius: 8px;
+  }
+
+button.hero-button {
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+  }
