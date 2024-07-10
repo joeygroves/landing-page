@@ -151,4 +151,19 @@ h1.information {
     gap: 16px;
     padding: 16px;
     margin:80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-call,
+.call-text {
+    text-align: left;
+}
+
+.header-call {
+    font-weight: bolder;
+}
+
+.call-text {
+    font-weight: lighter;
 }
