@@ -144,10 +144,12 @@ h1.information {
 
 .modal {
     background: #3882F6;
+    color: #F9FAF8;
     width: 480px;
     border-radius: 10px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
     display: flex;
     gap: 16px;
     padding: 16px;
+    margin:80px;
 }
